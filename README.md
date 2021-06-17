@@ -18,7 +18,6 @@ npm start
 5. 동작 확인
 http://localhost:3000/
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
