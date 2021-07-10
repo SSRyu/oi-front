@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/layout/header';
-import Footer from './components/layout/footer';
-import Clock from './components/clock';
+import Header from './components/layout/Header';
+import Navigation from './components/layout/Navigation';
+import Footer from './components/layout/Footer';
+import Clock from './components/Clock';
+import PostForm from './components/PostForm';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Navigation />
     <Clock />
+    <PostForm />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
