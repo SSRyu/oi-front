@@ -5,15 +5,23 @@ import Header from './components/layout/Header';
 import Navigation from './components/layout/Navigation';
 import Footer from './components/layout/Footer';
 import Clock from './components/Clock';
-import PostForm from './components/PostForm';
+import CuisineOfTodayList from './components/CuisineOfTodayList';
+// import CuisineList from './components/CuisineList'
+import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
+
     <Header />
     <Navigation />
+
     <Clock />
-    <PostForm />
+    <CuisineOfTodayList />
+    {/* <CuisineList /> */}
+    {/* <PostForm /> */}
+
     <Footer />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
